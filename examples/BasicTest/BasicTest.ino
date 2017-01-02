@@ -40,7 +40,7 @@
 
 #include <OctoWS2811.h>
 
-const int ledsPerStrip = 120;
+const int ledsPerStrip = 80;        //this worked for me. 120 here gave me "RAM overvlowed.." error.
 
 DMAMEM int displayMemory[ledsPerStrip*6];
 int drawingMemory[ledsPerStrip*6];
